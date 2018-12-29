@@ -1,4 +1,4 @@
-# angular-5-commands
+# Angular Notes
 
 - ng new [NEW_MODULE_NAME]
 - ng serve
