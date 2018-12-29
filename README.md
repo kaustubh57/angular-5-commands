@@ -43,6 +43,11 @@
 		3. Component directive
 			- Directives with templates
 			- e.g. <_app-root_>
+	- Role of Asterisk ( * ) symbol
+		- It's a syntactic sugar mechanism.
+		- behind the scene, instruct the angular to enclose the parent element by < template > element and then apply the directive behavior on the child elements of < template >
+		- After behavior implementation, remove the < template > element from view
+		- ![](images/structural-element-parsing.png?raw=true)
 
 =============
 
