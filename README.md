@@ -42,7 +42,8 @@
 			- e.g. _*ngIf_, _*ngFor_, _*ngSwitch_
 		3. Component directive
 			- Directives with templates
-			- e.g. _<app-root>_
+			- e.g. <_app-root_>
+
 =============
 
 ### Concepts
