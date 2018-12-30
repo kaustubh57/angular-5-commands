@@ -11,8 +11,11 @@
 - **Application setup**
 - **Directory setup**
 - **Bootstraping process**
+
 - **Components**
 	- Components are the individual and free piece of logic and view
+	- Use _@Component_ directive
+
 - **Data Binding**
 	- To connecting your DOM elements with components
 	- Types
@@ -30,6 +33,7 @@
 		- Two way binding:
 	- Custom property:
 		- User @Input property in class
+
 - **Directives**
 	- Directives are used to extend HTML elements and attributes in Angular application
 	- Directive also guide compiler to render specific view or behavior for certain HTML element or attribute
@@ -49,6 +53,27 @@
 		- After behavior implementation, remove the < template > element from view
 		- ![](images/structural-element-parsing.png?raw=true)
 	- <span style="color:blue">Custom Attribute directive</span>
+		- Use _@Directive_ decorator
+
+- **Services**
+	- Services type script classes which can have specific functionality and that functionality can be performed in the component, directive or any other part of the applicaiton where we import and inject them.
+	- Service can be injected using dependency injection.
+	- Bind that in a component's _providers_ array and use it.
+
+- **Angular Forms**
+	- Types
+		1. Template Driven Forms
+			- Based on HTML DOM and Angular Directives
+			- Use to create Simple Forms
+			- Limit Controls over Form Elements
+			- Normal Validations
+		2. Reactive Forms
+			- Use to create Complex Forms
+			- Based on Class Body Programming
+			- Full Control on Form Elements
+			- Sync with HTML form
+	- Form Control Objects
+		![](images/form-control-objects.png?raw=true)
 
 =============
 
