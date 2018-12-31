@@ -3,6 +3,7 @@
 - ng new [NEW_MODULE_NAME]
 - ng serve
 - ng g component [NEW_COMPONENT]
+- ng g service [NEW_SERVICE]
 - ng g class [NEW_MODEL_NAME]
 
 =============
@@ -72,8 +73,16 @@
 			- Based on Class Body Programming
 			- Full Control on Form Elements
 			- Sync with HTML form
+			- Need to import _ReactiveFormsModule_ in the module where it will be used (or AppModule)
+			- Custom validations can be applied
 	- Form Control Objects
 		![](images/form-control-objects.png?raw=true)
+	- **Form Array** to store multiple valus of an array
+	- Template variable or local reference can be assigned using "#" symbol
+
+- **Http Services**
+	- Observables
+		![](images/observables-life-cycle.png?raw=true)
 
 =============
 
@@ -82,3 +91,5 @@
 	- In angular means app automatically start with ngApp directive or < app-root> in angular 7.
 	- Bootstrapping in web frameworks is pushed into index page (the bootstrapper), and then it loads the frameworks helpers, models, configuration, and then loads the controller and passes off control to it.
 - string interpolation - {{ string }}
+- Form Control: Individual form element
+- Form Group: Group of form elements
