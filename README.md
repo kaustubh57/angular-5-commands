@@ -88,7 +88,7 @@
 - Routers: Navigate to Application
 	- Pass and extract multiple route parameters
 	- Send and extract query parameter
-		![](images/extract-route-param-and-query-param.png?raw=true)
+		![](images/extract-route-param-and-query-param.png?raw=true =100px)
 
 - Upgrade Angular app
 
