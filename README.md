@@ -83,6 +83,14 @@
 - **Http Services**
 	- Observables
 		![](images/observables-life-cycle.png?raw=true)
+	- Map operator
+
+- Routers: Navigate to Application
+	- Pass and extract multiple route parameters
+	- Send and extract query parameter
+		![](images/extract-route-param-and-query-param.png?raw=true)
+
+- Upgrade Angular app
 
 =============
 
