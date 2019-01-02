@@ -101,3 +101,9 @@
 - string interpolation - {{ string }}
 - Form Control: Individual form element
 - Form Group: Group of form elements
+
+### Tips
+- Make sure you are importing, providing, or declaring the angular modules, services, components properly.
+	- import `modules` and *not the components or services*
+	- declare `components` and *not the modules or services*.
+	- provide `services` and *not components or modules*.
