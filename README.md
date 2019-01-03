@@ -87,7 +87,6 @@
 
 - Routers: Navigate to Application
 
-		```
 		const routes: Routes = [
 		  {
 		    path: 'home',
@@ -102,7 +101,7 @@
 		    component: UserProfileComponent
 		  }
 		];
-		```
+
 	- Pass and extract multiple route parameters
 	- Send and extract query parameter
 		![](images/extract-route-param-and-query-param.png?raw=true)
