@@ -86,7 +86,7 @@
 	- Map operator
 
 - Routers: Navigate to Application
-	-
+
 		```
 		const routes: Routes = [
 		  {
